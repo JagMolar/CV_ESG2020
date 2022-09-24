@@ -98,7 +98,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		/* color: #a2a2a2; */
+		color: #777676;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -122,8 +123,10 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		/* color: #787878; */
+		color: #443F3F;
 		font-weight: 400;
+		/* font-weight: 600; */
 	}
 
 	em, i {
@@ -135,7 +138,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		/* color: #787878; */
+		color: #443F3F;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2249,7 +2253,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
-		padding-left: 0;
+		/* padding-left: 0; */
+		padding: 2em 0;
 	}
 
 		ul.actions li {
@@ -2592,15 +2597,16 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
+		background-attachment: scroll, scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-position: top left, top left;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, 150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		/* padding: 8em 4em; */
+		padding: 4rem 8rem;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2640,7 +2646,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 12em;
 		}
 
 /* Footer */
@@ -2684,14 +2690,15 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 7em 4em 4em 4em;
+		padding: 4rem 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			/* margin: 4em 0 0 0; */
+			margin: 3em 0 0 0;
+			/* padding: 4em 0 0 0; */
 		}
 
 			#main > section:first-child {
@@ -2997,7 +3004,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 3em 3em 3em;
+				padding: 3rem 4rem;
 				width: 30%;
 			}
 
@@ -3028,7 +3035,8 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				/* padding: 6em 3em 3em 3em; */
+				padding: 3em;
 				width: calc(100% - 30%);
 			}
 
@@ -3177,8 +3185,9 @@ input, select, textarea {
 			}
 
 				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
+					/* margin: 2.25em 0 0 0; */
+					margin: 2em 0 0 0;
+					/* padding: 2.25em 0 0 0; */
 				}
 
 		/* Poptrox */
