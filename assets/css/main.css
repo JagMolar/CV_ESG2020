@@ -2586,6 +2586,25 @@ input, select, textarea {
 			margin: 0;
 		}
 
+/* Edu Item */
+
+.edu-item {
+	align-items: center;
+	background-color:#e7f2ee;
+	border: solid 1rem #5CC6A7;
+	border-radius: 2rem;
+	margin: 1rem;
+	text-align: center;
+	padding: 0;
+	width: 46% !important;
+}
+
+	.edu-item h4 {
+		font-size: 2em;
+		margin: 0 0 0.5em 0;
+		padding: 0%;
+	}
+
 /* Header */
 
 	#header {
@@ -2697,9 +2716,9 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
-		padding: 4rem 4em 4em 4em;
+		margin-left: 40%;
+		max-width: 52em;
+		padding: 4rem;
 		width: calc(100% - 35%);
 	}
 
@@ -3237,3 +3256,110 @@ input, select, textarea {
 			}
 
 	}
+	dialog::backdrop{
+		background-color: #f0f6f4;
+	}
+
+	dialog[open] {
+		position: fixed;
+		width: 50%;
+		max-width: 750px;
+		top: 10px;
+	}
+
+#modal {
+	background: rgba(0, 0, 0, 0.9);  
+	color: #fff;  
+	position: fixed;	  
+	top: 0;  
+	left: 0;  
+	height: 100vh;  
+	width: 100vw;  
+	transition: all .5s;  
+	}
+
+	#modal p {
+	width: 60%;
+	height: 40%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+	}
+	  
+	  
+#modal {
+	background: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	position: fixed;
+	top: -100vh;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	transition: all .5s;
+  }
+
+  
+#mostrar-modal {
+	display: none;
+  }
+  #mostrar-modal + label {
+	background: steelblue;
+	display: table;
+	margin: auto;
+	color: #fff;
+	line-height: 3;
+	padding: 0 1em;
+	text-transform: uppercase;
+	cursor: pointer;
+  }
+  #mostrar-modal + label:hover {
+	background: #38678f;
+  }
+
+  #mostrar-modal:checked ~ #modal {
+	top: 0;
+  }  
+
+  #cerrar-modal {
+	display: none;
+  }
+
+#cerrar-modal + label {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	z-index: 100;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	background: tomato;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 50%;
+	transition: all .5s;
+  }
+  
+
+#cerrar-modal:checked ~ #modal {
+	top: -100vh;
+  }
+	
+  
+#cerrar-modal + label {
+	display: none;
+  }
+  #mostrar-modal:checked ~ #cerrar-modal + label {
+	display: block;
+  }
+  #cerrar-modal:checked + label {
+	display: none;
+  }
+  
+  
