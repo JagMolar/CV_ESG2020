@@ -3362,4 +3362,43 @@ input, select, textarea {
 	display: none;
   }
   
-  
+#three h2{
+	color: #5CC6A7;
+}
+
+#three h3 img {
+	height: 1em;
+}
+
+
+#footer li a .icons {
+	text-decoration: none;
+}
+
+#main span {
+	float: right; text-decoration: none !important; color: #787878;
+}
+
+.occupation {
+	color: #5CC6A7; margin-bottom: 0.5rem !important;
+}
+
+.company {
+	background-color:#d4f4ea; margin-bottom: 0.5rem !important;
+}
+
+.icontab {
+	margin-bottom:1rem;
+}
+
+.skills {
+	color: #5CC6A7;
+}
+
+.skills-fa {
+	color:#2fbbbb !important;
+}
+
+.style-types {
+	list-style-type: none;
+}
