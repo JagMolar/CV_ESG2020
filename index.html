@@ -85,21 +85,35 @@
 						
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form id="contacto" method="post" action="">
+								<!-- <form id="contacto" method="post" action="">-->
+								<form id="contacto" action="https://formsubmit.co/f5d9d9f2924b30a6488315935293723a" method="POST">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nombre" required /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Mensaje" rows="4" required></textarea></div>
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="name" id="name" placeholder="Nombre" required />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="email" id="email" placeholder="Email" required />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Mensaje" rows="4" required></textarea>
+										</div>
 										<div class="col-6 col-12-small">
 											<input type="checkbox" id="demo-human" name="demo-human" required>
 											<label for="demo-human">No soy un robot</label>
 										</div>
 									</div>
+									<ul class="actions">
+										<li><input type="submit" id="submit" value="Enviar Mensaje" /></li>
+										<!-- <li><input type="submit" id="submit" value="Enviar Mensaje" onclick="sendingEmail()" /></li>-->
+										<li><input type="reset" value="Limpiar" /></li>
+									</ul>
+									<input type="hidden" name="_autoresponse" value="Gracias por ponerte en contacto conmigo. Intentaré responder a la mayor brevedad.">
 								</form>
-								<ul class="actions">
-									<li><input type="submit" id="submit" value="Enviar Mensaje" onclick="sendingEmail()" /></li>
+								<!--<ul class="actions">
+									<li><input type="submit" id="submit" value="Enviar Mensaje" /></li>
+									 <li><input type="submit" id="submit" value="Enviar Mensaje" onclick="sendingEmail()" /></li>
 									<li><input type="reset" value="Limpiar" /></li>
-								</ul>
+								</ul>-->
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
