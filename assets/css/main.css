@@ -2735,6 +2735,19 @@ input, select, textarea {
 				padding-top: 0;
 			}
 
+
+.most-recent {
+	border-right:solid 4px #73dabc;
+	border-radius: 10px;
+	background-color: #f1f7f5;
+	padding: 16px;
+	margin-bottom: 16px;
+	/* padding-bottom: 4px; */
+}
+
+.most-recent p{
+	margin-bottom: 12px;
+}
 /* Poptrox */
 
 	@-moz-keyframes spin {
@@ -3381,6 +3394,10 @@ input, select, textarea {
 
 .occupation {
 	color: #5CC6A7; margin-bottom: 0.5rem !important;
+}
+
+.occupation-h {
+	color: #3D826E; margin-bottom: 0.5rem !important;
 }
 
 .company {
